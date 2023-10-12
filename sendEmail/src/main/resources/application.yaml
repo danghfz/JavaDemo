@@ -1,0 +1,9 @@
+server:
+  port: 8080
+spring:
+  main:
+    host: smtp.qq.com # 邮箱服务器地址
+    username: qq邮箱 # 发送者邮箱
+    password: qq邮箱授权码 # 发送者邮箱授权码
+    smtp.port: 465 # 端口号 465 / 587
+    from: qq邮箱 # 发送者邮箱

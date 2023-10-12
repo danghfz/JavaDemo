@@ -16,6 +16,7 @@
         <module>virtualPath</module>
         <module>verifyDemo</module>
         <module>AnnoLockDemo</module>
+        <module>sendEmail</module>
     </modules>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
