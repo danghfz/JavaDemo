@@ -1,0 +1,45 @@
+{
+  "groups": [
+    {
+      "name": "myconfig",
+      "type": "com.dhf.config.MyConfig",
+      "sourceType": "com.dhf.config.MyConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "my.server.name",
+      "defaultValue": "myconfig",
+      "type": "java.lang.String",
+      "description": "Description for my.server.name."
+    },
+    {
+      "name": "my.server.address",
+      "defaultValue": "",
+      "type": "java.lang.String",
+      "description": "Description for my.server.address."
+    },
+    {
+      "name": "my.server.username",
+      "defaultValue": "",
+      "type": "java.lang.String",
+      "description": "Description for my.server.username."
+    },
+    {
+      "name": "my.server.password",
+      "defaultValue": "",
+      "type": "java.lang.String",
+      "description": "Description for my.server.password."
+    },
+    {
+      "name": "prod.password",
+      "type": "java.lang.String",
+      "description": "Description for prod.password."
+    },
+    {
+      "name": "dev.password",
+      "type": "java.lang.String",
+      "description": "Description for dev.password."
+    }
+  ]
+}

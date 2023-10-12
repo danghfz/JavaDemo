@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: boot-prod
+my:
+  server:
+    name: prod-config-server
+    address: localhost
+    username: admin
+    password: ${prod.password}

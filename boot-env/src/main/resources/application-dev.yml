@@ -1,0 +1,13 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: boot-dev
+
+# 编译之后就不会高亮了
+my:
+  server:
+    name: dev-config-server
+    address: localhost
+    username: admin
+    password: ${dev.password}
