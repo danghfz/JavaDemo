@@ -18,6 +18,7 @@
         <module>AnnoLockDemo</module>
         <module>sendEmail</module>
         <module>xxlJob</module>
+        <module>pay-zhifubao</module>
     </modules>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
